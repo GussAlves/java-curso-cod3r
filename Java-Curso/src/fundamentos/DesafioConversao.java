@@ -2,19 +2,19 @@ package fundamentos;
 
 import java.util.Scanner;
 
-public class DesafioConversão {
+public class DesafioConversao{
 
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.print("Informe o primeiro salário: ");
+		System.out.print("Informe o primeiro salï¿½rio: ");
 		String valor1 = sc.next().replace(",", ".");
 		
-		System.out.print("Informe o segundo salário: ");
+		System.out.print("Informe o segundo salï¿½rio: ");
 		String valor2 = sc.next().replace(",", ".");
 		
-		System.out.print("Informe o primeiro salário: ");
+		System.out.print("Informe o primeiro salï¿½rio: ");
 		String valor3 = sc.next().replace(",", ".");
 		
 		double salario1 = Double.parseDouble(valor1);
@@ -22,7 +22,7 @@ public class DesafioConversão {
 		double salario3 = Double.parseDouble(valor3);
 		
 		double media = (salario1 + salario2 + salario3) / 3;
-		System.out.printf("A média dos salários é " + media);
+		System.out.printf("A mï¿½dia dos salï¿½rios ï¿½ " + media);
 		
 		sc.close();
 	}
