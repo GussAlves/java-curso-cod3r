@@ -12,6 +12,7 @@ public class SetExemplo {
 	 * Pode ser ordenado
 	 * Não é indexado
 	 */
+	@SuppressWarnings({ "rawtypes", "unchecked" }) // Silencia as advertencias
 	public static void main(String[] args) {
 		
 		HashSet conjunto = new HashSet(); // Declarando Set
