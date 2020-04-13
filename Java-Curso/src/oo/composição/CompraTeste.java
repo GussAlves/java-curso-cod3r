@@ -9,6 +9,7 @@ public class CompraTeste {
 		compra1.adicionarItem("Caneta", 20, 7.45);
 		compra1.adicionarItem(new Item("Borracha", 12, 2.89));
 		compra1.adicionarItem(new Item("Caderno", 3, 18.79));
+		compra1.adicionarItem("Marca pagina", 3, 1.00);
 		
 		System.out.println("Quantidade de itens " + compra1.itens.size()); // Verificando quantidade de itens da compra
 		System.out.println("O valor total da compra é de R$ " + compra1.obterValorTotal()); // Retornando o valor total da compra

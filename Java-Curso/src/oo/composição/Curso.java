@@ -1,0 +1,19 @@
+package oo.composição;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Curso {
+
+	final String nome;
+	List<Aluno> alunos = new ArrayList<>();
+	
+	Curso(String nome){
+		this.nome = nome;
+	}
+	
+	void adicionarAluno(Aluno aluno) { // Metodo para vincular um aluno a um curso
+		this.alunos.add(aluno);
+		aluno.cursos.add(this);
+	}
+}
