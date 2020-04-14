@@ -1,0 +1,12 @@
+package oo.composição.desafio;
+
+public class Produto {
+
+	double preco;
+	String nome;
+	
+	public Produto(String nome, double preco) {
+		this.preco = preco;
+		this.nome = nome;
+	}
+}
