@@ -4,16 +4,28 @@ public class Jogo {
 
 	public static void main(String[] args) {
 		
-		Jogador j1 = new Jogador();
-		j1.x = 10;
-		j1.y = 10;
+		Jogador monstro = new Monstro(); // Criado classe Monstro usando a Classe Jogador como referência
+		monstro.x = 10;
+		monstro.y = 11;
 		
-		j1.andar(Direcao.NORTE);
-		j1.andar(Direcao.LESTE);
-		j1.andar(Direcao.NORTE);
-		j1.andar(Direcao.LESTE);
+		Jogador heroi = new Heroi();
+		heroi.x = 10;
+		heroi.y = 11;
 
-		System.out.println(j1.y);
-		System.out.println(j1.x);	
+		System.out.println("Monstro tem => " + monstro.vida);
+		System.out.println("Heroi tem => " + heroi.vida);
+		
+		monstro.atacar(heroi);
+		heroi.atacar(monstro);
+		
+		monstro.atacar(heroi);
+		heroi.atacar(monstro);
+		
+		monstro.andar(Direcao.NORTE);
+		monstro.atacar(heroi);
+		heroi.atacar(monstro);
+		
+		System.out.println("Monstro tem => " + monstro.vida);
+		System.out.println("Heroi tem => " + heroi.vida);
 	}
 }
