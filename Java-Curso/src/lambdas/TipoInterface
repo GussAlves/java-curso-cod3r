@@ -1,0 +1,11 @@
+INTERFACES FUNCIONAIS
+	Assinatura      Nome
+	nada -> T		Supplier
+	T -> nada		Consumer
+	T -> T			UnaryOperator
+	T,T -> T		BinaryOperator
+	S -> T 			Function
+	T -> boolean	Predicate
+			T = Tipo
+PACKAGE 
+	java.util.function
