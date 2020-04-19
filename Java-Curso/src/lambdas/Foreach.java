@@ -19,13 +19,13 @@ public class Foreach {
 		aprovados.forEach(System.out::println);
 		
 		System.out.println("\nLambida #02...");
-		aprovados.forEach(nome -> meuImprimir(nome));
+		aprovados.forEach(nome -> meuImprimir(nome)); // Referência por método
 		
 		System.out.println("\nMethod Reference #02...");
 		aprovados.forEach(Foreach::meuImprimir);
 	}	
 	
-	static void meuImprimir(String nome) {
+	static void meuImprimir(String nome) { // Função criada para printar o nome formatado
 		System.out.println("Oi! Meu nome é " + nome);
 	}
 }
