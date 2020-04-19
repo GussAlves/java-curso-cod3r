@@ -10,6 +10,7 @@ public interface Calculo { // interface é abstrata
 		return "Legal";
 	}
 	
+	// Também é possível ter um método statico
 	static String muitoLegal() {
 		return "Muito legal";
 	}

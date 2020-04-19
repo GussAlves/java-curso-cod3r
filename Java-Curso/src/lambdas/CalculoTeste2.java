@@ -12,6 +12,6 @@ public class CalculoTeste2 {
 		calculo = (x, y) -> x * y;
 		
 		System.out.println(calculo.legal()); // Utilizando método Default 
-		System.out.println(Calculo.muitoLegal());
+		System.out.println(Calculo.muitoLegal()); // Utilizando método statico direto da Classe
 	}
 }
