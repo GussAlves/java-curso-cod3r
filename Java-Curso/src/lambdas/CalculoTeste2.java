@@ -10,5 +10,8 @@ public class CalculoTeste2 {
 		
 		// Quando não há o par de chaves ele irá retornar o resultado do mesmo
 		calculo = (x, y) -> x * y;
+		
+		System.out.println(calculo.legal()); // Utilizando método Default 
+		System.out.println(Calculo.muitoLegal());
 	}
 }
