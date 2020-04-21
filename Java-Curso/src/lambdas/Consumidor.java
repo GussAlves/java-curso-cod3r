@@ -6,7 +6,8 @@ import java.util.function.Consumer;
 
 public class Consumidor {
 
-	// Consumer le um Tipo e não retorna nada
+	// 	Representa uma operação que aceita um único argumento 
+	// de entrada e não retorna nenhum resultado.
 	
 	public static void main(String[] args) {
 		
