@@ -25,7 +25,7 @@ public class Foreach {
 		aprovados.forEach(Foreach::meuImprimir);
 	}	
 	
-	static void meuImprimir(String nome) { // Função criada para printar o nome formatado
+	static void meuImprimir(String nome) { // Função statica criada para printar o nome formatado
 		System.out.println("Oi! Meu nome é " + nome);
 	}
 }
