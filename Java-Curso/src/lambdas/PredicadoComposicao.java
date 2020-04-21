@@ -6,6 +6,7 @@ public class PredicadoComposicao {
 
 	public static void main(String[] args) {
 		
+		// Predicado retorna um valor boolean
 		Predicate<Integer> isPar = num -> num % 2 == 0; // Verificando número parImpar
 		Predicate<Integer> isTresDigitos = num -> num >= 100 && num <= 999; // Verifica se o número é descimal
 	

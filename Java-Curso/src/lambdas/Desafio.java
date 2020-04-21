@@ -15,7 +15,7 @@ public class Desafio {
 		 * 5. Formatar: R$1234,56
 		 */
 		
-		Produto p = new Produto("iPad", 3235.89, 0.13);
+		Produto p = new Produto("iPad", 3235.89, 0.13); // Declarando produto
 		
 		Function<Produto, Double> precoFinal = prod -> prod.PRECO * (1 - prod.DESCONTO); 
 		
@@ -25,6 +25,7 @@ public class Desafio {
 		
 		UnaryOperator<Double> arredondar = valor -> Double.parseDouble(String.format("%.2f", valor));
 		
+		// Função formatar ira puxar o double e retornar uma String 
 		Function<Double, String> formatar = valor -> ("R$" + valor).replace(".", ",");
 				
 		String preco = precoFinal.andThen(ImpostoMunicipal)

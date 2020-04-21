@@ -8,6 +8,7 @@ public class Predicado {
 
 	public static void main(String[] args) {
 		
+		// Predicado retorna um valor Boolean
 		// Declarando um predicado do tipo Produto, inserindo a condição de preço maior igual 
 		Predicate<Produto> isCaro = prod -> (prod.PRECO * (1 - prod.DESCONTO)) >= 750;
 		
