@@ -23,6 +23,6 @@ public class Map {
 			.map(Utilitarios.maiuscula) // Lambda Expression
 			.map(primeiraLetra)
 			.map(Utilitarios::grito) // Utilizando Method Reference
-			.forEach(Utilitarios.print); // Lambda Expression
+			.forEach(Utilitarios.println); // Lambda Expression
 	}
 }

@@ -5,7 +5,7 @@ import java.util.function.UnaryOperator;
 
 public interface Utilitarios {
 
-	public static Consumer<String> print = System.out::print;
+	public static Consumer<String> println = System.out::println;
 	
 	public final static UnaryOperator<String> maiuscula = 
 			n -> n.toUpperCase();
