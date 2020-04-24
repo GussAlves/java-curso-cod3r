@@ -19,6 +19,7 @@ public class Match {
 		Predicate<Aluno> aprovado = a -> a.nota >= 7; // Filtra as notas dos alunos 
 		Predicate<Aluno> reprovado = aprovado.negate(); // Filtra as notas dos alunos 
 	
+		// Match são funções terminadoras 
 		System.out.println(alunos.stream().allMatch(aprovado)); // Todos 
 		System.out.println(alunos.stream().anyMatch(aprovado)); // Alguns
 		System.out.println(alunos.stream().noneMatch(reprovado)); // Nenhum 
