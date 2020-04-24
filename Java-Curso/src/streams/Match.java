@@ -20,7 +20,7 @@ public class Match {
 		Predicate<Aluno> reprovado = aprovado.negate(); // Filtra as notas dos alunos 
 	
 		System.out.println(alunos.stream().allMatch(aprovado)); // Todos 
-		System.out.println(alunos.stream().anyMatch(aprovado)); // Algum 
+		System.out.println(alunos.stream().anyMatch(aprovado)); // Alguns
 		System.out.println(alunos.stream().noneMatch(reprovado)); // Nenhum 
 	}
 }
