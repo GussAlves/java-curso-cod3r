@@ -22,7 +22,7 @@ public class MinMax {
 			return 0;
 		};
 		
-		Comparator<Aluno> piorNota = (aluno1, aluno2) -> {
+		Comparator<Aluno> piorNota = (aluno1, aluno2) -> {	
 			if(aluno1.nota > aluno2.nota) return -1;
 			if(aluno1.nota < aluno2.nota) return 1;
 			return 0;
