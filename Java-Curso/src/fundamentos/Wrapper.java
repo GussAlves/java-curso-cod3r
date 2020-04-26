@@ -10,6 +10,7 @@ public class Wrapper {
 		
 		//Integer.parseInt(entrada.next());
 		Integer i = 10000; //int
+		@SuppressWarnings("unused")
 		Long l = 100000l;
 		
 		System.out.println(b.byteValue());
