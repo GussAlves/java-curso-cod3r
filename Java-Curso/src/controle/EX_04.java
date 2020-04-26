@@ -4,12 +4,13 @@ import java.util.Scanner;
 
 public class EX_04 {
 
-	// Verifique se um número é primo
+	// Verifique se um nï¿½mero ï¿½ primo
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
 
-		System.out.print("Insira um número: ");
+		System.out.print("Insira um nï¿½mero: ");
+		@SuppressWarnings("unused")
 		double num = sc.nextDouble();
 		
 		
