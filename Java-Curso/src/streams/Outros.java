@@ -18,22 +18,24 @@ public class Outros {
 		
 		List<Aluno> alunos = Arrays.asList(a1, a2, a3, a4, a5, a6, a7, a8);
 		
-		System.out.println("Distinct.. "); // Serve para tirar os objetos duplicados
+		// Serve para tirar os objetos duplicados
+		System.out.println("Distinct.. "); 
 		alunos.stream().distinct().forEach(System.out::println);
 		
-		System.out.println("\nSkip/Limit..."); // Pular Objetos da fila 
+		// Pular Objetos da fila
+		System.out.println("\nSkip/Limit...");  
 		alunos.stream()
 			.distinct()
 			.skip(2) // Pula 
 			.limit(2) // Para 2 antes de acabar a lista
 			.forEach(System.out::println);
 		
-		System.out.println("\ntakeWhile..."); // Enquanto foi true ele continua 
+		// Enquanto foi true ele continua 
+		System.out.println("\ntakeWhile..."); 
 		alunos.stream()
 			.distinct()
 			.skip(2)
 			.takeWhile(a -> a.nota >= 7.0) // Condição 
 			.forEach(System.out::println);
-		
 	}
 }

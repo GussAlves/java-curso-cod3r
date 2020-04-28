@@ -12,7 +12,7 @@ public class Reduce1 {
 		
 		// Representa uma operação em dois operandos do mesmo tipo, 
 		// produzindo um resultado do mesmo tipo que os operandos.
-		BinaryOperator<Integer> soma = (ac, n)	-> ac + n;
+		BinaryOperator<Integer> soma = (acumulador, n)	-> acumulador + n;
 		
 		Integer total1 = nums.stream().reduce(soma).get();
 		System.out.println(total1);
