@@ -12,6 +12,6 @@ public class Basico {
 		}
 		
 		// Linha de codigo rodada após o tratamento de erro 
-		System.out.println("Fim:) "); 
+		System.out.println("Fim:)"); 
 	}	
 }
