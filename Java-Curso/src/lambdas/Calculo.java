@@ -14,4 +14,6 @@ public interface Calculo { // interface é abstrata
 	static String muitoLegal() {
 		return "Muito legal";
 	}
+	
+	// Teste 
 }
