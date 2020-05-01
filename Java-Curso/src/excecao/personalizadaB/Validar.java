@@ -1,7 +1,6 @@
-package excecao;
+package excecao.personalizadaB;
 
-import excecao.personalizadaA.NumeroForaIntervaloException;
-import excecao.personalizadaA.StringVaziaException;
+import excecao.Aluno;
 
 public class Validar {
 
@@ -14,11 +13,11 @@ public class Validar {
 		}
 		
 		// isEmpty valida se o if é verdadeiro 
-		if(aluno.nome == null || aluno.nome.trim().isEmpty()) {
+		if(aluno.getNome() == null || aluno.getNome().trim().isEmpty()) {
 			throw new StringVaziaException("nome");
 		}
 		
-		if(aluno.nota < 0 || aluno.nota > 10) {
+		if(aluno.getNota() < 0 || aluno.getNota() > 10) {
 			throw new NumeroForaIntervaloException("nota");
 		}
 	}

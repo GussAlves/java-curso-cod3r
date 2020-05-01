@@ -1,6 +1,7 @@
-package excecao.personalizadaA;
+package excecao.personalizadaB;
 
 import excecao.Aluno;
+import excecao.personalizadaA.Validar;
 
 public class TesteValidacoes {
 
