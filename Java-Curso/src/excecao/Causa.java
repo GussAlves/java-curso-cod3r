@@ -3,7 +3,7 @@ package excecao;
 public class Causa {
 
 	public static void main(String[] args) {
-		
+		//
 		try {
 			metodoA(null);
 		} catch (IllegalArgumentException e) {
