@@ -1,4 +1,4 @@
-package oo.composição.exemploInterface;
+package oo.composicao.exemploInterface;
 
 public class Cavalo extends Mamifero implements AnimalDomesticado {
 

@@ -1,4 +1,4 @@
-package oo.composição;
+package oo.composicao;
 
 public class CompraTeste {
 
@@ -14,7 +14,7 @@ public class CompraTeste {
 		System.out.println("Quantidade de itens " + compra1.itens.size()); // Verificando quantidade de itens da compra
 		System.out.println("O valor total da compra é de R$ " + compra1.obterValorTotal()); // Retornando o valor total da compra
 	
-		// Só para mostrar a realação bidirecional!!!
+		// Sao para mostrar a realacao bidirecional!!!
 		double total = compra1.itens.get(0).compra.itens.get(1).compra.obterValorTotal();
 		System.out.println("O total é " + total);
 		

@@ -1,4 +1,4 @@
-package oo.composição.exemploInterface;
+package oo.composicao.exemploInterface;
 
 public abstract class Mamifero extends Animal {
 
